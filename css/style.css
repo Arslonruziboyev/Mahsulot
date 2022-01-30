@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .4s;
+}
+body{
+    background: #0a1837;
+    font-family: sans-serif;
+
+}
+/* Header section  */
+#header{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    overflow: hidden;
+    padding: 20px 0;
+}
+#header .left-info a{
+    color: #000;
+    /* opacity: 0.6; */
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 0;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+#header .left-info a:hover{
+    /* color: #ccc; */
+    opacity: 0.6;
+}
+#header .nav li a{
+    text-align: center;
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 5;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4),0 0 10px rgba(0,0,0,0.3);
+    
+    
+}
+#header .myContact{
+    background: #0a1837;
+    color: #f1f1f1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    text-align: center;
+    opacity: 0.7;
+    /* padding: 10px 15px; */
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    cursor: pointer;
+    margin-top: -2px;
+}
+.left-bar{
+    width: 100%;
+    background-color: #fff;
+    height: 700px;
+    position: relative;
+    border-radius: 10px;
+}
+.left-bar .categoriya{
+    background: #ff9800;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px 10px;
+    font-size: 24px;
+    position: absolute;
+    width: 80%;
+    top: -30px;
+    left: 22px;
+    text-align: center;
+    box-shadow: 0 0 10 rgba(0,0,0,0.2);
+
+}
+.flexdiv{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexdiv .icon-color{
+    color: #ff9800;
+}
+.tools a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+}
+.card-bottom{
+    color: #fff;
+    text-align: center;
+    
+}
+.card-bottom i{
+    color: #ff9800;
+    font-size: 64px;
+    font-weight: bold;
+    display: block;
+    padding: 0;
+}
+.card-bottom a{
+    color: #fff;
+    text-decoration: none;
+}
+#demo{
+    height: 350px;
+    display: block;
+}
+#demo img{
+    border-radius: 10px;
+    height: 100%;
+}
+.home-container{
+
+}
+
+.home-container .home-icon{
+    font-size: 60px;
+    color: #ff9800;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.home-container .home-title{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+
+
